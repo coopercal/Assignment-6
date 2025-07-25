@@ -12,3 +12,6 @@ def test_ValueofZero():
 
 def test_ValueofOne():
     assert list(Fibonacci(1)) == [0, 1]
+
+def test_ValueofTwo():
+    assert list(Fibonacci(2)) == [0, 1, 1]
