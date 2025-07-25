@@ -15,3 +15,6 @@ def test_ValueofOne():
 
 def test_ValueofTwo():
     assert list(Fibonacci(2)) == [0, 1, 1]
+
+def test_ValueofFour():
+    assert list(Fibonacci(4)) == [0, 1, 1, 2, 3]
