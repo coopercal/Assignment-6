@@ -9,3 +9,6 @@ def test_RaiseValueError():
 
 def test_ValueofZero():
     assert list(Fibonacci(0)) == [0]
+
+def test_ValueofOne():
+    assert list(Fibonacci(1)) == [0, 1]
