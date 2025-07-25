@@ -1,11 +1,11 @@
 
 
 class Fibonacci:
-    def __init__(self,stop,step=1):
-        self.start = 1
-        self.stop = stop
-        self.step = step
-        self.current_value = 1 - step
+    def __init__(self,stop):
+        self.start = 0
+        self.stop = stop + 1
+        self.step = 1
+        self.current_value = self.start - self.step
         if not isinstance(self.stop, int):
             raise ValueError
 
